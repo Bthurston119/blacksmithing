@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+    <name>blacksmith</name>
+    <version>0.0.1</version>
+    <description>
+        <p>Blacksmithing project</p>
+        <p>
+            This package contains configuration data, 3D models and launch files
+            for the Blacksmithing project.
+        </p>
+        <p>
+            Before using any of the configuration files and / or meshes included
+            in this package, be sure to check they are correct for the particular
+            robot model and configuration you intend to use them with.
+        </p>
+    </description>
+    <author>B. Thurston</author>
+    <maintainer email="thruston.119@osu.edu">B. Thurston</maintainer>
+    <license>Apache 2.0</license>
+
+    <url type="bugtracker">https://github.com/bthurston119/blacksmithing/issues</url>
+    <url type="repository">https://github.com/bthurston119/blacksmithing</url>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <test_depend>roslaunch</test_depend>
+
+    <export>
+        <architecture_independent/>
+    </export>
+</package>
